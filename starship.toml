@@ -1,0 +1,21 @@
+[battery]
+disabled = true
+
+[erlang]
+symbol = "ⓔ "
+
+[nodejs]
+symbol = "[⬢](bold green) "
+
+[pulumi]
+symbol = "🧊 "
+
+[git_branch]
+symbol = '🌱 '
+truncation_length = 4
+truncation_symbol = ''
+disabled = false
+
+[git_commit]
+disabled = true
+
