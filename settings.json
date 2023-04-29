@@ -1,0 +1,86 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontLigatures": false,
+  "editor.fontFamily": "Jetbrains Mono, Monaco, 'Courier New', monospace",
+  "editor.formatOnPaste": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": true,
+  "prettier.trailingComma": "none",
+  "prettier.arrowParens": "always",
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "as-needed",
+  "prettier.jsxBracketSameLine": false,
+  "prettier.bracketSpacing": true,
+  "prettier.tabWidth": 2,
+  "editor.tabSize": 2,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // JavaScript
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // JavaScript + React
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // TypeScript
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // TypeScript + React
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // JSON with Comments
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // HTML
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.banner": "never",
+  "emmet.includeLanguages": {
+    "typescript": "typescriptreact",
+    "javascript": "javascriptreact"
+  },
+  "git.autofetch": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/*.code-search": true,
+    "ios/": true,
+    "android/": true,
+    "dist/": true,
+    "yarn.lock": true,
+    "package-lock.json": true,
+    ".gitignore": true,
+    ".expo": true,
+    ".vscode": true
+  },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "vscode-icons",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.enabled": false,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "terminal.external.osxExec": "Iterm.app",
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.suggestSmartCommit": false,
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontVariations": false,
+  "debug.disassemblyView.showSourceCode": false,
+  "vscord.app.name": "Visual Studio Code"
+}
